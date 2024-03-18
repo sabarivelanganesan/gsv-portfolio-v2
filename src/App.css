@@ -1,0 +1,126 @@
+/* Navbar Section */
+.nav-bar {
+  padding: 10px 5rem;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.nav-list-item {
+  padding: 0 1rem;
+}
+
+
+/* Home Section */
+.home-section {
+  display: flex;
+}
+.profile-section {
+  padding-top: 12rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  max-width: 40%;
+}
+.profile-name {
+  font-size: xx-large;
+  font-weight: 800;
+  margin-top: 5px;
+}
+.profile-title {
+  font-size: large;
+  margin-top: 10px;
+}
+.profile-description {
+  margin: 20px 0px 35px;
+}
+.profile-actions {
+  display: flex;
+}
+.btn-action {
+  border: 1px solid;
+  padding: 15px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+.primary {
+  background-color: cyan;
+  color: #282c34;
+}
+.secondary {
+  color: #fff;
+}
+.profile-image-section {
+  margin-top: 6%;
+  margin-left: 10%;
+}
+.profile-image {
+  width: 250px;
+}
+
+/* Home to Intro */
+.hometointromodel {
+  width: 70%;
+  background-color: #898f99;
+  border-radius: 55px;
+  position: relative;
+  display: flex;
+  padding: 30px 45px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.temp-img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.htm-item {
+  padding: 10px;
+  display: flex;
+}
+
+/* Intosection */
+
+/* About  me */
+
+.aboutme {
+  margin-top: 100px;
+  display: flex;
+  overflow: visible;
+}
+
+.temp-prof-img {
+  margin-left: 250px;
+  width: 250px;
+  height: 350px;
+  background-color: #fff;
+  border: 1px solid;
+}
+.aboutme-details {
+  width: 650px;
+  margin-left: 10%;
+}
+.abtme-title {
+  font-size: xx-large;
+  font-weight: bold;
+}
+.abtme-description {
+  margin-top: 10px;
+}
+.aboutme-contacts {
+    margin-top: 50px;
+}
+.aboutme-contacts .row {
+  display: flex;
+  margin-bottom: 18px;
+}
+.icon-avatar {
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+/* .aboutme-contacts .row .col:nth-child(2), :nth-child(3) {
+   margin-right: 40px;
+} */

@@ -1,0 +1,13 @@
+body {
+    font-family: "Short Stack", cursive;
+    font-weight: 400;
+    font-style: normal;
+    /* background-color: #282c34; */
+    background-color: #dae6e5;
+    /* color: white; */
+    padding: 10px;
+}
+p, div {
+    margin: 0;
+    padding: 0;
+}
