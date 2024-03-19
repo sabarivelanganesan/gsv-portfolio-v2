@@ -124,3 +124,24 @@
 /* .aboutme-contacts .row .col:nth-child(2), :nth-child(3) {
    margin-right: 40px;
 } */
+
+/* Skill Section */
+.skill-section {
+  margin-top: 130px;
+}
+.skill-section p {
+  text-align: center;
+}
+.skill-list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  width: 70%;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+}
+.skill-list-item {
+  padding: 20px;
+}
