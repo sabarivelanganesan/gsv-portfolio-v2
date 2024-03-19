@@ -2,6 +2,7 @@ import './App.css';
 import NavigationBar from './NavigationBar';
 import Home from './Home';
 import AboutMeSection from './myintro';
+import Skills from './Skills';
 function App() {
   return (
     <div className="App">
@@ -9,6 +10,7 @@ function App() {
         <NavigationBar />
         <Home />
         <AboutMeSection />
+        <Skills />
       </header>
     </div>
   );
