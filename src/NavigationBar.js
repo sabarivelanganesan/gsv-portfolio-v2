@@ -1,13 +1,13 @@
 function NavigationBar() {
  return (
-    <nav class="nav-bar">
-        <ul class = "nav-list">        
-            <li class="nav-list-item">Contact me</li>
-            <li class="nav-list-item">Blogs</li>
-            <li class="nav-list-item">Projects</li>
-            <li class="nav-list-item">Services</li>
-            <li class="nav-list-item">My Intro</li>
-            <li class="nav-list-item">Home</li>
+    <nav className="nav-bar">
+        <ul className = "nav-list">        
+            <li className="nav-list-item">Contact me</li>
+            <li className="nav-list-item">Blogs</li>
+            <li className="nav-list-item">Projects</li>
+            <li className="nav-list-item">Services</li>
+            <li className="nav-list-item">My Intro</li>
+            <li className="nav-list-item">Home</li>
         </ul>
     </nav>
  )
