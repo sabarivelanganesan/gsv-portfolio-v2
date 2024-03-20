@@ -210,7 +210,16 @@
 
 /* Skill Section */
 .skill-section {
-  margin-top: 130px;
+  margin: 70px 0;
+}
+.skill-section .skill-title1 {
+  color: #0D81C3;
+  margin-bottom: 10px;
+}
+.skill-section .skill-title2 {
+  color: #083E5E;
+  font-size: xx-large;
+  font-weight: bolder;
 }
 .skill-section p {
   text-align: center;
@@ -224,6 +233,7 @@
   text-align: center;
   margin: 0 auto;
   justify-content: center;
+  margin-top: 40px;
 }
 .skill-list-item {
   padding: 20px;
@@ -231,7 +241,8 @@
 
 /* Qualifications */
 .qualifications {
-  margin-top: 100px;
+  background-color: #fff;
+  padding: 70px 0;
 }
 .qualifications .qual-title {
   color: #0D81C3;
@@ -242,6 +253,7 @@
 .qualifications .qual-awe-journey {
   font-size: xx-large;
   font-weight: bold;
+  color: #083E5E;
 }
 .qualifications .qualification-lists {
   display: flex;
@@ -250,10 +262,12 @@
 }
 .qualification-lists .experience, .qualification-lists .education {
   width: 500px;
+  color:#083E8E;
 }
 .education-lists, .experience-lists {
   padding: 0;
   margin-top: 25px;
+  color: #083E5E;
 }
 .education .edu-title, .experience .exp-title {
   font-size: x-large;
