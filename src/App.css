@@ -1,6 +1,7 @@
 /* Navbar Section */
 .nav-bar {
-  padding: 10px 5rem;
+  padding: 15px 5rem;
+  background-color: #fff;
 }
 .nav-list {
   list-style: none;
@@ -9,12 +10,19 @@
 }
 .nav-list-item {
   padding: 0 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.nav-list-item:hover {
+  color: #0D81C3;
 }
 
 
 /* Home Section */
 .home-section {
   display: flex;
+  padding-bottom: 150px;
+  position: relative;
 }
 .profile-section {
   padding-top: 12rem;
@@ -22,17 +30,26 @@
   padding-right: 5rem;
   max-width: 40%;
 }
+.profile-section .profile-start {
+  color: #0D81C3;
+  font-size: larger;
+  font-weight: 600;
+}
 .profile-name {
+  color: #083E5E;
   font-size: xx-large;
-  font-weight: 800;
+  font-weight:bolder;
   margin-top: 5px;
 }
 .profile-title {
   font-size: large;
   margin-top: 10px;
+  font-weight: 700;
+  color: #083E8E;
 }
 .profile-description {
   margin: 20px 0px 35px;
+  color: #777878;
 }
 .profile-actions {
   display: flex;
@@ -44,40 +61,69 @@
   margin-right: 20px;
 }
 .primary {
-  background-color: cyan;
-  color: #282c34;
-}
-.secondary {
+  /* background-color: cyan; */
+  background-color: #0D81C3;
   color: #fff;
 }
+.secondary {
+  /* color: #fff; */
+  border-color: #0D81C3;
+}
 .profile-image-section {
-  margin-top: 6%;
-  margin-left: 10%;
+  /* margin-top: 8rem;
+  margin-left: 14rem; */
 }
 .profile-image {
   width: 250px;
+  height: 450px;
+  position: absolute;
+  right: 260px;
+  bottom: 65px;
 }
 
 /* Home to Intro */
 .hometointromodel {
-  width: 70%;
-  background-color: #898f99;
+  width: 900px;
+  background-color: #fff;
   border-radius: 55px;
-  position: relative;
+  position: absolute;
+  right: 130px;
+  bottom: -60px;
   display: flex;
   padding: 30px 45px;
   justify-content: space-between;
-  margin: 0 auto;
+  -webkit-box-shadow: -3px 7px 19px 3px rgba(204,209,219,1);
+  -moz-box-shadow: -3px 7px 19px 3px rgba(204,209,219,1);
+  box-shadow: -3px 7px 19px 3px rgba(204,209,219,1);
 }
-.temp-img {
+.htm-item .item-border {
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: #0D81C3;
+  position: relative;
+}
+.item-border img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 .htm-item {
   padding: 10px;
   display: flex;
+}
+.htm-item .item-details {
+  margin-left: 20px;
+}
+
+.htm-item .item-details p:nth-child(1) {
+  color: #083E5E;
+  font-weight: bolder;
+}
+.htm-item .item-details p:nth-child(2) {
+  color: #0D81C3;
+  font-size: small;
+  font-weight: bold;
 }
 
 /* Intosection */
@@ -85,28 +131,65 @@
 /* About  me */
 
 .aboutme {
-  margin-top: 100px;
+  padding-top: 165px;
+  background-color: #fff;
   display: flex;
   overflow: visible;
+  padding-bottom: 100px;
 }
 
-.temp-prof-img {
+.abt-prof-img {
   margin-left: 250px;
-  width: 250px;
-  height: 350px;
+  /* width: 250px;
+  height: 250px;
+  /*border-radius: 50%;
   background-color: #fff;
-  border: 1px solid;
+  border: 1px solid; */
+}
+.abt-prof-img img {
+  height: 350px;
+  width: 250px;
 }
 .aboutme-details {
   width: 650px;
   margin-left: 10%;
+  margin-top: 40px;
 }
-.abtme-title {
+.abtme-title1 {
+  color: #0D81C3;
+}
+.abtme-title2 {
+  color: #083E5E;
   font-size: xx-large;
   font-weight: bold;
 }
+.aboutme-details .explore-work {
+  margin-top: 25px;
+  font-weight: bolder;
+  font-size: large;
+  color: #083E5E;
+}
+.explore-work .tech-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+.tech-list .tech-item {
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row-reverse;
+}
+.tech-item .tech-item-name {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #0D81C3;
+}
+
 .abtme-description {
   margin-top: 10px;
+  color: #777878;
 }
 .aboutme-contacts {
     margin-top: 50px;
@@ -145,3 +228,252 @@
 .skill-list-item {
   padding: 20px;
 }
+
+/* Qualifications */
+.qualifications {
+  margin-top: 100px;
+}
+.qualifications .qual-title {
+  color: #0D81C3;
+}
+.qualifications .qual-title, .qualifications .qual-awe-journey {
+  text-align: center;
+}
+.qualifications .qual-awe-journey {
+  font-size: xx-large;
+  font-weight: bold;
+}
+.qualifications .qualification-lists {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+}
+.qualification-lists .experience, .qualification-lists .education {
+  width: 500px;
+}
+.education-lists, .experience-lists {
+  padding: 0;
+  margin-top: 25px;
+}
+.education .edu-title, .experience .exp-title {
+  font-size: x-large;
+}
+.experience .experience-lists, .education .education-lists {
+  list-style: none;
+}
+.edu-list-item, .exp-list-item {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.qual-list-icon {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #0D81C3;
+  position: relative;
+  margin-right: 20px;
+}
+.qual-list-icon::after {
+  content: "";
+  height: 45px;
+  border: 1px solid #0D81C3;
+  position: absolute;
+  top: 11px;
+  left: 5px;
+}
+.exp-details .exp-cmp-name, .edu-details .edu-deg {
+  font-weight: bold;
+}
+.edu-details .edu-name, .exp-details .exp-role {
+  color: gray;
+  font-size: small;
+  margin-bottom: 5px;
+}
+.exp-details .exp-date, .edu-details .edu-date {
+  font-size: small;
+  color: #0D81C3;
+}
+.exp-date, .edu-date {
+  display: flex;
+  align-items: center;
+}
+.exp-date .square, .edu-date .square {
+  width: 10px;
+  height: 10px;
+  background-color: #0D81C3;
+  margin-right: 5px;
+}
+
+
+/* Work I DO */
+.myworks {
+  margin-top: 100px;
+}
+.myworks .title {
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.myworks .myworks-lists {
+  list-style: none;
+  flex-wrap: wrap;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.myworks-lists .work-item {
+  border: 1px solid #ccc;
+  border-top-right-radius: 50px;
+  padding: 40px;
+  width: 400px;
+  margin-bottom: 60px;
+}
+.myworks-lists .work-item:nth-child(1) {
+  margin-right: 40px;
+}
+.work-item .work-title {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.work-item .work-description {
+  /* color: gray; */
+  font-size: small;
+}
+.work-item:hover {
+  background-color: #0D81C3;
+  color: #fff !important;
+  transition: .5s ease-in-out;
+}
+
+
+/* Projects */
+.projects {
+  margin-top: 50px;
+}
+.projects .project-title1, .projects .project-title2 {
+  text-align: center;  
+}
+.project-title2 {
+  font-size: xx-large;
+  font-weight: bold;
+}
+.projects .project-lists {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+.project-lists .project-card {
+  width: 500px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.project-lists .project-card:nth-child(2) {
+  margin-left: 40px;
+}
+.project-card .project-img {
+  border-radius: 10px;
+}
+.project-card .card-details {
+  padding: 15px;
+}
+.card-details .project-name {
+  font-weight: bold;
+  margin: 10px 0; 
+}
+.card-details  .project-desc {
+  font-size: small;
+  margin-bottom: 15px;
+}
+.card-details .project-link {
+  display: flex;
+  flex-flow: row-reverse;
+}
+.project-link .link-desc {
+  margin-left: 5px;
+  color: #0D81C3;
+  text-decoration: none;
+}
+
+/* Contact Me */
+.connect-section {
+  margin-top: 150px;
+}
+.connect-section .connect-title1, .connect-section .connect-title2 {
+  text-align: center;
+}
+.connect-section .connect-title2 {
+  font-weight: bold;
+  font-size: xx-large;
+}
+.connect-section .contact {
+  margin-top: 50px;
+  margin-bottom: 160px;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+.contact-details {
+  display: flex;
+  justify-content: center;
+}
+.contact-item {
+  display: flex;
+  width: 400px;
+  margin-right: 40px;
+}
+.contact-item:last-child {
+  margin-right: 0;
+}
+
+.contact-item .item-details p {
+  margin-left: 10px;
+}
+.contact-item .item-details p:first-child {
+  font-size: large;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+.contact-item .item-details p:last-child {
+  font-size: small;
+}
+.contact-item .contact-icon-border img{
+  /* width: 30px; */
+}
+/* 
+.contact .contact-form, .contact .contact-details {
+  width: 500px;
+    border: 2px solid #cde;
+}
+.contact-form input, .contact-form input {
+  border: 2px solid #cde !important;
+}
+input:focus-visible, textarea:focus-visible {
+  outline: 2px solid #cde !important;
+}
+.contact-form .contact-name, .contact-form .contact-email {
+  width: 230px;
+  height: 40px;
+  border-radius: 5px;
+}
+.contact-form .contact-sub, .contact-form .contact-msg {
+  width: 495px;
+  height: 40px;
+  margin: 15px 0;
+  border-radius: 5px;
+  line-height: 200px;
+}
+.contact-form .contact-msg {
+  height: 100px;
+  overflow: hidden;
+  border: 2px solid #cde !important;
+}
+
+.contact-name {
+  margin-right: 25px;
+}
+ */

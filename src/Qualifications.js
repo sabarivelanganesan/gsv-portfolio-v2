@@ -1,7 +1,83 @@
+import React from "react";
 function Qualifications() {
+    const experienceLists = [
+        {
+            id: 0,
+            companyName: "Zoho Corporation",
+            startingData: "2020",
+            endingDate: "2022",
+            role: "Software Developer"
+        }, {
+            id: 1,
+            companyName: "Zoho Corporation",
+            startingData: "2019",
+            endingDate: "2020",
+            role: "Software Intern"
+        }
+    ];
+    const educationLists = [
+        {
+            id: 0,
+            collegeName: "Loughborough University",
+            startingData: "2022",
+            endingDate: "2023",
+            degree: 'Masters of Computer Science'
+        }, {
+            id: 1,
+            collegeName: "Sri Eshwar College Of Engineering",
+            startingData: "2016",
+            endingDate: "2020",
+            degree: 'Bachelors of Computer Science'
+        }
+    ];
+
+    const renderExperienceColumn = experienceLists.map((experience) => 
+        <li key={experience.id} className="exp-list-item">
+            <div className="qual-list-icon"></div>
+            <div className="exp-details">
+                <p className="exp-cmp-name">{experience.companyName}</p>
+                <p className="exp-role">{experience.role}</p>
+                <div className="exp-date">
+                    <div className="square"></div>
+                    <p>{experience.startingData} - {experience.endingDate}</p>
+                </div>
+            </div>
+        </li>
+    );
+
+    const renderEducationColumn = educationLists.map((education) => 
+    <li key={education.id} className="edu-list-item">
+        <div className="qual-list-icon"></div>
+        <div className="edu-details">
+            <p className="edu-deg">{education.degree}</p>
+            <p className="edu-name">{education.collegeName}</p>
+            <div className="edu-date">
+                <div className="square"></div>
+                <p>{education.startingData} - {education.endingDate}</p>
+            </div>
+        </div>
+    </li>
+);
+
+
     return (
-        <div>
-            
+        <div className="qualifications">
+            <p className="qual-title">My Qualification</p>
+            <p className="qual-awe-journey">Awesome Journey</p>
+            <div className="qualification-lists">
+                <div className="experience">
+                    <p className="exp-title">Experience</p>
+                    <ul className="experience-lists">
+                        {renderExperienceColumn}
+                    </ul>
+                </div>
+                <div className="education">
+                    <p className="edu-title">Education</p>
+                    <ul className="education-lists">
+                        {renderEducationColumn}
+                    </ul>
+                </div>
+            </div>
         </div>
     )
 
