@@ -101,15 +101,12 @@ function Skills() {
         );
     return (
         <div className='skill-section'>
-            <p>Why choose me</p>
-            <p>The skills, tools and technologies</p>
-            <p>I am really good at:</p>
-            <div>
-                <ul className="skill-list">
-                    {skillsList}
-                </ul>
-            </div>
-
+            <p className='skill-title1'>Why choose me</p>
+            <p className='skill-title2'>The skills, tools and technologies</p>
+            <p className='skill-title2'>I am really good at:</p>
+            <ul className="skill-list">
+                {skillsList}
+            </ul>
         </div>
     )
 }
