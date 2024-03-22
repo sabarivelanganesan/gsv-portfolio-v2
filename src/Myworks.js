@@ -14,13 +14,13 @@ function Myworks() {
         {
             id: 0,
             title: "Full Stack Development",
-            description: "My work as front end developer could make the flowless creative web design and development to the team",
+            description: "I'm your all-in-one software engineering wizard, from prototypes to production. With expertise in UI/UX, APIs, databases, backend, and even micro-frontends, I've got you covered. Let's tackle your tech challenges together",
             img:""
         },
         {
             id: 1,
             title: "eCommerce",
-            description: "My work as front end developer could make the flowless creative web design and development to the team",
+            description: "I've spearheaded eCommerce platform development, adept in Shopify and Amazon. Managed my own Amazon-based venture. Skilled in marketing, A/B testing, growth hacking, and advertising. Let's amplify your online presence and boost business together!",
             img:"" 
         }
     ];
@@ -33,7 +33,7 @@ function Myworks() {
     )
 
     return  (
-        <div className="myworks">
+        <div id='whatido' className="myworks">
             <p className="title">What I Do</p>
             <ul className="myworks-lists">
                 {renderMyWorkLists}

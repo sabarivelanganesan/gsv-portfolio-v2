@@ -100,7 +100,7 @@ function Skills() {
             </li>
         );
     return (
-        <div className='skill-section'>
+        <div id='skills' className='skill-section'>
             <p className='skill-title1'>Why choose me</p>
             <p className='skill-title2'>The skills, tools and technologies</p>
             <p className='skill-title2'>I am really good at:</p>

@@ -2,20 +2,55 @@ import Portfolioimg from './styles/Portfolioimg.png';
 import WorkExperience from './styles/work-experience.png';
 import Support from './styles/support.png';
 import Projects from './styles/projects.png';
+import { useEffect, useState } from 'react';
 
-function Home() {
+function Home({setCanViewIframe}) {
+    const [roles] = useState(["Full-Stack Developer", "Software Engineer"]);
+    const [roleIndex, setRoleIndex] = useState(0);
+    const [charIndex, setCharIndex] = useState(0);
+    
+    function connectLinkedIn() {
+        window.open('https://www.linkedin.com/in/sabarivelan-ganesan/', '_blank');
+    }    
+    
+    function viewResume() {
+        setCanViewIframe(true);
+    }
+
+    useEffect(() => {
+        const roleElement = document.getElementById('jobtitle');
+        const currentRole = roles[roleIndex];
+        const timer = setInterval(() => {
+            clearTimeout();
+            if (charIndex < currentRole.length) {
+                roleElement.textContent += currentRole.charAt(charIndex);
+                setCharIndex(charIndex + 1);
+            } else {
+                clearInterval(timer);
+                setTimeout(() => {
+                    roleElement.textContent = ''; // Clear content after a delay
+                    setCharIndex(0);
+                    setRoleIndex((roleIndex + 1) % roles.length);
+                }, 1000); // Delay before switching to the next role
+            }
+        }, 100); // Adjust the delay between letters if needed
+
+        return () => clearInterval(timer); // Cleanup on unmount
+    }, [roles, roleIndex, charIndex]);
+    
+
     return (
-        <div className="home-section">
+        <div id="home" className="home-section">
             <div className="profile-section">
                 <p className="profile-start">Hi, I am</p>
                 <p className="profile-name">SABARIVELAN GANESAN</p>
-                <p className="profile-title" id="jobtitle">Software Developer</p>
+                <p className="profile-title" id="jobtitle"></p>
                 <p className="profile-description">
                     Experienced Software developer with a focus on building engaging and accessible digital experiences
                 </p>
                 <div className="profile-actions">
-                    <div className="btn-action primary">View Resume</div>
-                    <div className="btn-action secondary">Connect LinkedIn</div>
+                    <div tabIndex={7} className="btn-action primary" onClick={viewResume}>View Resume</div>
+                    <div tabIndex={8} className="btn-action secondary" onClick={connectLinkedIn}>Connect LinkedIn</div>
                 </div>
             </div>
             <div className="profile-image-section">
