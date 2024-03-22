@@ -61,7 +61,7 @@ function Qualifications() {
 
 
     return (
-        <div className="qualifications">
+        <div id="experience" className="qualifications">
             <p className="qual-title">My Qualification</p>
             <p className="qual-awe-journey">Awesome Journey</p>
             <div className="qualification-lists">

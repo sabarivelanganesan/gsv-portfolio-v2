@@ -9,7 +9,7 @@ import mail from './styles/mail.png'
 
 function ContactMe() {
     return (
-        <div className="connect-section">
+        <div id="contactme" className="connect-section">
             <p className="connect-title1">Contact Me</p>
             <p className="connect-title2">Get in Touch</p>
             <div className="contact">
@@ -46,7 +46,7 @@ function ContactMe() {
                         </div>
                         <div className="item-details">
                             <p>Loughborough, United Kingdom</p>
-                            <p>I'm happy to work on-site or remote but prefer to meet face-to-face atleast once in a while</p>
+                            <p>I'm happy to work on-site or remote but prefer to meet face-to-face atleast once in a while.</p>
                         </div>
                     </div>
                 </div>

@@ -26,7 +26,7 @@ const renderTechAdventures = techAdventures.map((tech) =>
 
 function AboutMeSection() {
     return (
-        <div className="aboutme">
+        <div id="aboutme" className="aboutme">
             <div className="abt-prof-img">
                 <img src={aboutimage} alt="Sabarivelan Ganesan"/>
             </div>
