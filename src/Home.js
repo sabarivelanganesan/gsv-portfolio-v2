@@ -4,7 +4,7 @@ import Support from './styles/support.png';
 import Projects from './styles/projects.png';
 import { useEffect, useState } from 'react';
 
-function Home({setCanViewIframe}) {
+function Home() {
     const [roles] = useState(["Full-Stack Developer", "Software Engineer"]);
     const [roleIndex, setRoleIndex] = useState(0);
     const [charIndex, setCharIndex] = useState(0);
@@ -13,9 +13,9 @@ function Home({setCanViewIframe}) {
         window.open('https://www.linkedin.com/in/sabarivelan-ganesan/', '_blank');
     }    
     
-    function viewResume() {
-        setCanViewIframe(true);
-    }
+    // function viewResume() {
+    //     setCanViewIframe(true);
+    // }
 
     useEffect(() => {
         const roleElement = document.getElementById('jobtitle');
