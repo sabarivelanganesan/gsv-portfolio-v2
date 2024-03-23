@@ -28,7 +28,7 @@ function App() {
           <Qualifications />
           <Myworks />
           {/* <Projects /> */}
-          <ContactMe />
+          {/* <ContactMe /> */}
         </>
       )}
     </div>
