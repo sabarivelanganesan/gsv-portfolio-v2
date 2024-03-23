@@ -7,7 +7,7 @@ import Qualifications from './Qualifications';
 import Myworks from './Myworks';
 import Projects from './Projects';
 import ContactMe from './Contactme';
-import ResumeViewer from './ResumeViewer';
+// import ResumeViewer from './ResumeViewer';
 // import { useState } from 'react';
 
 function App() {
