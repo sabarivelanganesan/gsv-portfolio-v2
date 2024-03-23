@@ -38,6 +38,10 @@ function Home({setCanViewIframe}) {
         return () => clearInterval(timer); // Cleanup on unmount
     }, [roles, roleIndex, charIndex]);
     
+    function linkToContacts() {
+        const contact = document.getElementById('contactme');
+        contact.scrollIntoView({behavior: 'smooth'})
+    }
 
     return (
         <div id="home" className="home-section">
@@ -49,8 +53,8 @@ function Home({setCanViewIframe}) {
                     Experienced Software developer with a focus on building engaging and accessible digital experiences
                 </p>
                 <div className="profile-actions">
-                    <div tabIndex={7} className="btn-action primary" onClick={viewResume}>View Resume</div>
-                    <div tabIndex={8} className="btn-action secondary" onClick={connectLinkedIn}>Connect LinkedIn</div>
+                    <div tabIndex={7} className="btn-action primary" onClick={connectLinkedIn}>Connect LinkedIn</div>
+                    <div tabIndex={8} className="btn-action secondary" onClick={linkToContacts}> Let's talk </div>
                 </div>
             </div>
             <div className="profile-image-section">
@@ -62,7 +66,7 @@ function Home({setCanViewIframe}) {
                         <img src={WorkExperience} alt='Work Experience' />
                     </div>
                     <div className='item-details'>
-                        <p>3 Years Job</p>
+                        <p>3+ Years Job</p>
                         <p>Experience</p>
                     </div>
                 </div>
