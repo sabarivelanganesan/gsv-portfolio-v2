@@ -1,6 +1,4 @@
 plugins = []
-functionsDirectory = "C:\\Users\\sabar\\source\\repos\\sabarivelanganesan\\Portfolio\\Portfolio-v2\\gsv-portfolio-v2\\netlify\\functions"
-functionsDirectoryOrigin = "config-v1"
 headers = []
 redirects = []
 
@@ -9,11 +7,10 @@ redirects = []
 [functions."*"]
 
 [build]
-publish = "C:\\Users\\sabar\\source\\repos\\sabarivelanganesan\\Portfolio\\Portfolio-v2\\gsv-portfolio-v2\\\tbuild"
-publishOrigin = "config"
+publish = "C:\\Users\\sabar\\source\\repos\\sabarivelanganesan\\Portfolio\\Portfolio-v2\\gsv-portfolio-v2"
+publishOrigin = "default"
 command = "npm run build"
-commandOrigin = "config"
-functions = "C:\\Users\\sabar\\source\\repos\\sabarivelanganesan\\Portfolio\\Portfolio-v2\\gsv-portfolio-v2\\netlify\\functions"
+commandOrigin = "heuristics"
 
 [build.environment]
 
