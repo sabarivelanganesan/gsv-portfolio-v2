@@ -35,6 +35,12 @@
   -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+.nav-bar .logo {
+  position: absolute;
+  font-size: xx-large;
+  color: #083E5E;
+  left: 30px;
+}
 .nav-bar .menu-icon {
   position: absolute;
   display: none;
@@ -60,23 +66,6 @@
 .nav-list-item:hover {
   color: #0D81C3;
 }
-
-@media screen and (max-width: 860px){
-  .nav-bar .menu-icon { 
-    display: block;
-  }
-  .nav-bar {
-    margin-bottom: 2rem;
-  }
-  .nav-list {
-    list-style: none;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 62px;
-  }
-}
-
 
 /* Home Section */
 .home-section {
@@ -160,7 +149,6 @@
   color: #fff;
 }
 .secondary {
-  /* color: #fff; */
   border-color: #0D81C3;
 }
 .secondary:hover {
@@ -298,66 +286,6 @@
   }
 }
 
-@media screen and (max-width: 1187px) {
-  body {
-    font-size: small !important;
-  }
-  .profile-section .profile-start {
-    font-size: small !important;
-  }
-  .profile-section .profile-name {
-    font-size: large !important;
-  }
-  .profile-section.profile-title {
-    font-size: medium !important;
-  }
-  .profile-image-section .profile-image {
-    right: 190px;
-    height: 400px;
-    width: 190px;
-  }
-  .hometointromodel {
-    width: 700px;
-  }
-}
-
-@media screen and (max-width: 940px) {
-  .hometointromodel {
-    width: 540px;
-    right: 46px;
-  }
-  .hometointromodel .htm-item {
-    display: block;
-  }
-  .item-border {
-    margin-left: 20%;
-  }
-  .htm-item .item-details {
-    margin-left: 0px !important;
-    margin-top: 5px;
-  }
-  .profile-image-section .profile-image {
-    right: 12%;
-  }
-}
-
-@media screen and (max-width: 555px){
-  .profile-image-section .profile-image {
-    right: 20px;
-    opacity: .16;
-  }
-}
-
-@media screen and (max-width: 980px) {
-  .profile-image-section .profile-image {
-    top: 10%;
-  }
-
-  .profile-section {
-    padding-top: 7rem;
-  }
-}
-
 .htm-item .item-border {
   width: 45px;
   height: 45px;
@@ -393,27 +321,19 @@
 /* About  me */
 
 .aboutme {
-  padding-top: 165px;
+  padding: 165px;
   background-color: #fff;
   display: flex;
-  overflow: visible;
-  padding-bottom: 100px;
 }
 
 .abt-prof-img {
-  margin-left: 250px;
-  /* width: 250px;
-  height: 250px;
-  /*border-radius: 50%;
-  background-color: #fff;
-  border: 1px solid; */
 }
 .abt-prof-img img {
   height: 350px;
   width: 250px;
 }
 .aboutme-details {
-  width: 650px;
+  /* width: 650px; */
   margin-left: 10%;
   margin-top: 40px;
 }
@@ -505,7 +425,7 @@
 /* Qualifications */
 .qualifications {
   background-color: #fff;
-  padding: 70px 0;
+  padding: 70px;
 }
 .qualifications .qual-title {
   color: #0D81C3;
@@ -601,7 +521,7 @@
   flex-wrap: wrap;
   padding: 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .myworks-lists .work-item {
   border: 1px solid #0D81C3;
@@ -609,9 +529,6 @@
   padding: 40px;
   width: 400px;
   margin-bottom: 60px;
-}
-.myworks-lists .work-item:nth-child(1) {
-  margin-right: 40px;
 }
 .work-item .work-title {
   font-weight: bold;
@@ -649,7 +566,7 @@
   padding: 0;
   display: flex;
   margin-top: 50px;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .project-lists .project-card {
   width: 500px;
@@ -665,7 +582,7 @@ box-shadow: 0px -1px 5px 6px rgba(13,128,195,0.37);
 border: 1px solid #0b81c2;
 }
 .project-lists .project-card:nth-child(2) {
-  margin-left: 40px;
+  /* margin-left: 40px; */
 }
 .project-card .project-img {
   border-radius: 10px;
@@ -717,8 +634,7 @@ border: 1px solid #0b81c2;
 
 /* Contact Me */
 .connect-section {
-  padding-top: 75px;
-  padding-bottom: 150px;
+  padding: 75px 40px 150px;
   background-color: #CCD1DB;
 }
 .connect-section .connect-title1, .connect-section .connect-title2 {
@@ -735,6 +651,7 @@ border: 1px solid #0b81c2;
 .connect-section .contact {
   margin-top: 50px;
   margin-bottom: 160px;
+  padding: 0px 50px;
   /* display: flex; */
   /* justify-content: center; */
 }
@@ -744,7 +661,6 @@ border: 1px solid #0b81c2;
 }
 .contact-item {
   display: flex;
-  width: 400px;
   margin-right: 40px;
 }
 .contact-item:last-child {
@@ -757,7 +673,6 @@ border: 1px solid #0b81c2;
 .contact-item .item-details p:first-child {
   font-size: large;
   font-weight: bold;
-  text-decoration: underline;
   margin-top: 2px;
   margin-bottom: 5px;
 }
@@ -806,3 +721,225 @@ input:focus-visible, textarea:focus-visible {
   width: 100%;
   height: 975px;
  }
+
+
+ /* Media Queries */
+ 
+@media screen and (max-width: 860px){
+  .nav-bar .menu-icon { 
+    /* display: block; */
+  }
+  .nav-bar {
+    margin-bottom: 2rem;
+  }
+  .nav-list {
+    list-style: none;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 62px;
+  }
+  .nav-list-item  {
+    display: none;
+  }
+
+  /* About me section */
+  .aboutme {
+    padding: 70px;
+  }
+
+  /* Skills */
+  .skills {
+    padding: 70px 35px;
+  } 
+
+  /* WhatIDO */
+  .myworks-lists .work-item {
+    padding: 20px;
+    width: 260px;
+  }
+  .myworks {
+    padding-top: 60px;
+  }
+  .myworks .title {
+    margin-bottom: 60px;
+  }
+
+  /* Contact details */
+
+  .contact-details {
+    flex-direction: column; 
+  }
+  .contact-details .contact-item {
+    margin-bottom: 30px;
+  }
+
+}
+
+@media screen and (max-width: 1100px) {
+    /* Projects */
+    .project-lists {
+      flex-direction: column ;
+    }
+    .project-lists .project-card {
+      margin: 0 auto;
+    }
+    .project-lists .project-card:nth-child(2) {
+      margin-top: 40px;
+    }  
+}
+
+
+@media screen and (max-width: 1187px) {
+  body {
+    font-size: small !important;
+  }
+  .profile-section .profile-start {
+    font-size: small !important;
+  }
+  .profile-section .profile-name {
+    font-size: large !important;
+  }
+  .profile-section.profile-title {
+    font-size: medium !important;
+  }
+  .profile-image-section .profile-image {
+    right: 190px;
+    height: 400px;
+    width: 190px;
+  }
+  .hometointromodel {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .hometointromodel {
+    width: 540px;
+    right: 46px;
+  }
+  .hometointromodel .htm-item {
+    display: block;
+  }
+  .item-border {
+    margin-left: 20%;
+  }
+  .htm-item .item-details {
+    margin-left: 0px !important;
+    margin-top: 5px;
+  }
+  .profile-image-section .profile-image {
+    right: 12%;
+  }
+}
+
+/* Mobiles */
+
+@media screen and (max-width: 696px){
+  .hometointromodel {
+    width: 240px;
+    height: 200px;
+    top: 302px;
+    padding: 10px;
+    display: block;
+  }
+  .htm-item {
+    display: flex !important;
+    padding: 12px;
+    justify-content: space-evenly;
+  }
+  .item-border {
+    margin-left: 0px;
+  }
+  .profile-section {
+    padding-top: 3rem !important;
+    padding-left: 3rem;
+  }
+  .profile-title {
+    display: none;
+  }
+  .profile-description {
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  .profile-image-section .profile-image {
+    right: 20px;
+    top: 10px !important;
+    /* opacity: .16; */
+    width: 110px;
+    height: 260px;
+  }
+  .profile-actions {
+    width: 200px;
+  }
+  .primary {
+    display: none;
+  }
+  .secondary {
+    background-color: #0D81C3;
+    color: #fff;
+    padding: 9px;
+  }
+
+   /* Qualifications */
+   .qualification-lists {
+    display: block !important;
+  }
+  .education, .experience {
+    width: 180px !important;
+    margin: 0 auto !important;
+  }
+
+  /* Aboutme section */
+  .aboutme {
+    padding: 165px 20px 55px;
+    display: block !important;
+  }
+  .abt-prof-img {
+      position: relative;
+      /* left: 30%; */
+  }
+  .aboutme-details {
+    /* width: 500px; */
+    margin-left: 0;
+    text-align: center;
+  }
+  .abt-prof-img img {
+    position: relative;
+    left: 38%;
+    width: 120px;
+    height: 200px;
+  }
+  .explore-work .tech-list {
+    justify-content: center;
+  }
+
+  /* Skills */
+  .skill-section .skill-title2 {
+    padding: 0px 20px;
+  }
+
+  /* Projects */
+  .project-card,  .project-card .project-img {
+    width: 300px !important;
+  }
+  
+  /* Contact Details */
+  .connect-section {
+    padding: 50px 20px;
+  }
+  .contact {
+    padding: 0 !important;
+  }
+
+}
+
+@media screen and (max-width: 980px) {
+  .profile-image-section .profile-image {
+    top: 10%;
+  }
+
+  .profile-section {
+    padding-top: 7rem;
+  }
+}

@@ -10,6 +10,7 @@ function NavigationBar() {
     }
  return (
     <nav className="nav-bar">
+        <div className='logo'>&lt;GSV / &gt;</div>
         <img className='menu-icon' onClick={viewMenu} src={Menu} alt='Menu Icon' />
         {canViewMenu && 
             <ul className = "nav-list">

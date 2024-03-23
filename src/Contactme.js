@@ -24,15 +24,6 @@ function ContactMe() {
                 <div className="contact-details">
                     <div className="contact-item">
                         <div className="contact-icon-border">
-                            <img src={call} alt="Call Icon" />
-                        </div>
-                        <div className="item-details">
-                            <p>+44 7436992116</p>
-                            <p>For job opportunities, please call or text. Otherwise, email is preferred. Thank you</p>
-                        </div>
-                    </div>
-                    <div className="contact-item">
-                        <div className="contact-icon-border">
                             <img src={mail} alt="Email   Icon" />
                         </div>
                         <div className="item-details">
@@ -42,11 +33,20 @@ function ContactMe() {
                     </div>
                     <div className="contact-item">
                         <div className="contact-icon-border">
+                            <img src={call} alt="Call Icon" />
+                        </div>
+                        <div className="item-details">
+                            <p>+44 7436992116</p>
+                            <p>For job opportunities, please call or text. Thank you</p>
+                        </div>
+                    </div>
+                    <div className="contact-item">
+                        <div className="contact-icon-border">
                             <img src={location} alt="Location Icon" />
                         </div>
                         <div className="item-details">
                             <p>Loughborough, United Kingdom</p>
-                            <p>I'm happy to work on-site or remote but prefer to meet face-to-face atleast once in a while.</p>
+                            <p>I'm happy to work on-site or remote.</p>
                         </div>
                     </div>
                 </div>

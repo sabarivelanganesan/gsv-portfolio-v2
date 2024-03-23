@@ -8,29 +8,30 @@ import Myworks from './Myworks';
 import Projects from './Projects';
 import ContactMe from './Contactme';
 import ResumeViewer from './ResumeViewer';
-import { useState } from 'react';
+// import { useState } from 'react';
 
 function App() {
-  const [canViewIframe, setCanViewIframe] = useState(false);
+  // const [canViewIframe, setCanViewIframe] = useState(false);
 
   return (
     <div className="App">
-      {canViewIframe ? (
+      {/* {canViewIframe ? (
         <ResumeViewer />
       ) : (
-        <>
+        <> */}
           <header className="App-header">
             <NavigationBar />
           </header>
-          <Home setCanViewIframe={setCanViewIframe} />
-          {/* <AboutMeSection /> */}
+          <Home />
+          {/* <Home setCanViewIframe={setCanViewIframe} /> */}
+           <AboutMeSection />
           <Skills />
           <Qualifications />
           <Myworks />
-          {/* <Projects /> */}
-          {/* <ContactMe /> */}
-        </>
-      )}
+          <Projects />
+          <ContactMe />
+        {/* </> */}
+      {/* )} */}
     </div>
   );
 }
