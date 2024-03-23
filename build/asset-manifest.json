@@ -1,12 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.0b44af98.css",
-    "main.js": "/static/js/main.bbfd343d.js",
+    "main.js": "/static/js/main.4550f3e1.js",
     "static/media/emovieProject.png": "/static/media/emovieProject.b12f6c54c08db4fa3fc3.png",
     "static/media/Portfolioimg.png": "/static/media/Portfolioimg.9d57c1b748116f192761.png",
     "static/media/filesharing.png": "/static/media/filesharing.7a40fc8a353341aa06ca.png",
     "static/media/sabari.png": "/static/media/sabari.436d0daeb5fc728e1fdb.png",
-    "static/media/SVGanesan-Resume.pdf": "/static/media/SVGanesan-Resume.2a233a53bb776f6ae2b3.pdf",
     "static/media/react.svg": "/static/media/react.d580a556565454c43bb9f5276bcc7dce.svg",
     "static/media/sql-server.svg": "/static/media/sql-server.b0fa9ca5b426d173ea8a0b32e0632dd2.svg",
     "static/media/dotnet.svg": "/static/media/dotnet.a766bc445bcc0f3a10f464bce0672262.svg",
@@ -27,10 +26,10 @@
     "static/media/html.svg": "/static/media/html.c1bb84e022ca9d76984d4b943bd678fd.svg",
     "static/media/npm.svg": "/static/media/npm.8c0606a7c392a7d33d03e67c80d6f40a.svg",
     "main.0b44af98.css.map": "/static/css/main.0b44af98.css.map",
-    "main.bbfd343d.js.map": "/static/js/main.bbfd343d.js.map"
+    "main.4550f3e1.js.map": "/static/js/main.4550f3e1.js.map"
   },
   "entrypoints": [
     "static/css/main.0b44af98.css",
-    "static/js/main.bbfd343d.js"
+    "static/js/main.4550f3e1.js"
   ]
 }
