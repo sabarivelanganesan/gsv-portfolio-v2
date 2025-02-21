@@ -13,14 +13,26 @@ function Myworks() {
         // },
         {
             id: 0,
-            title: "Full Stack Development",
-            description: "I'm your all-in-one software engineering wizard, from prototypes to production. With expertise in UI/UX, APIs, databases, backend, and even micro-frontends, I've got you covered. Let's tackle your tech challenges together",
+            title: " Custom Web & Mobile Apps",
+            description: "I design and develop scalable, high-performance web and mobile applications using React.js, Next.js, Node.js, and Spring Boot. With expertise in AWS, Azure, and Kubernetes, I ensure applications are built for reliability, security, and scalability.",
             img:""
         },
         {
             id: 1,
-            title: "eCommerce",
-            description: "I've spearheaded eCommerce platform development, adept in Shopify and Amazon. Managed my own Amazon-based venture. Skilled in marketing, A/B testing, growth hacking, and advertising. Let's amplify your online presence and boost business together!",
+            title: "Cloud & DevOps Consulting",
+            description: "I architect and deploy cloud solutions using AWS, Azure, Terraform, Kubernetes, and Docker. From CI/CD pipelines (Jenkins, GitHub Actions) to automated infrastructure provisioning, I enhance cloud efficiency and reliability. My experience includes serverless architectures, container orchestration, and monitoring with Prometheus & Grafana",
+            img:"" 
+        },
+        {
+            id: 2,
+            title: "AI & Data Insights",
+            description: "Leveraging Apache Spark, SQL, Pandas, and ML models (XGBoost, LSTM), I build predictive analytics, data pipelines, and AI-driven insights. My recent projects include CO₂ Emission Tracking & Forecasting and Food Supply Chain Analytics, where I integrated machine learning with cloud automation to generate actionable insights.",
+            img:"" 
+        },
+        {
+            id: 3,
+            title: "API Development & Integration",
+            description: "I develop secure, high-performance REST and GraphQL APIs using Spring Boot, Django, and Node.js. With expertise in database optimization (PostgreSQL, MySQL, MongoDB, Redis) and serverless architectures (AWS Lambda, Azure Functions), I ensure seamless integration across applications",
             img:"" 
         }
     ];
@@ -34,7 +46,7 @@ function Myworks() {
 
     return  (
         <div id='whatido' className="myworks">
-            <p className="title">What I Do</p>
+            <p className="title">What I Provide</p>
             <ul className="myworks-lists">
                 {renderMyWorkLists}
             </ul>

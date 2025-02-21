@@ -33,7 +33,7 @@ function AboutMeSection() {
             <div className="aboutme-details">
                 <p className='abtme-title1'>My Intro</p>
                 <p className="abtme-title2">About me</p>
-                <p className="abtme-description">Experienced Software Developer with 3+ years' expertise in leading large-scale solutions. Skilled in web development, automated testing, debugging, and agile methodologies. Passionate about intelligent automation with a proven track record of enhancing customer satisfaction. Offers technical mentorship and problem-solving skills, adaptable to flexible work models and open to business travel.</p>
+                <p className="abtme-description">Software Engineer with 4+ years of expertise in designing and deploying large-scale, high-performance solutions. Skilled in cloud computing, web development, automated testing, and debugging, with a deep understanding of agile methodologies. Passionate about intelligent automation, optimizing workflows, and enhancing customer satisfaction through innovation. A technical mentor and problem solver, adaptable to flexible work models and open to business travel.</p>
                 <div className='explore-work'>
                     <p>Tech Adventures</p>
                     <ul className='tech-list'>

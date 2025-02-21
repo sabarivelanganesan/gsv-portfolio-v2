@@ -16,47 +16,56 @@ import nodejs from './styles/nodejs.svg';
 import npm from './styles/npm.svg';
 import react from './styles/react.svg';
 import sqlserver from './styles/sql-server.svg';
+import kubernetes from './styles/kubernetes.svg';
+import python from './styles/python.svg';
+import apacheSpark from './styles/apache-spark.svg';
+import apachekafka from './styles/apache-kafka.svg';
+import jenkins from './styles/jenkins.svg';
+import postgresql from './styles/postgresql.svg';
+import terraform from './styles/terraform.svg';
+import aws from './styles/aws.svg';
+import go from './styles/go.svg';
 
 function Skills() {
     const skillsWithImgURL = [
         {
             id: 0,
-            name: 'JavaScript',
-            img: Js
+            name: 'Python',
+            img: python
         }, {
             id: 1,
-            name: 'TypeScript',
-            img: Ts
+            name: 'Go',
+            img: go
         }, {
             id: 2,
-            name: 'React',
-            img: react
+            name: 'AWS',
+            img: aws
         }, {
 
             id: 3,
-            name: 'Html',
-            img: html
+            name: 'Docker',
+            img: docker
         }, {
             id: 4,
-            name: 'CSS',
-            img: CSS
+            name: 'Kubernetes',
+            img: kubernetes
         }, {
             id: 5,
-            name: 'Bootstrap',
-            img: Bootstrap
+            name: 'Terraform',
+            img: terraform
         }, {
             id: 6,
-            name: '.Net',
-            img: dotnet
+            name: 'Apache kafka',
+            img: apachekafka
         },{
             id: 7,
-            name: 'C#',
-            img: Chsarp
+            name: 'Apache Spark',
+            img: apacheSpark
         },
          {
             id: 8,
-            name: 'C++',
-            img: Cplusplus
+            name: 'Jenkins',
+            img: jenkins
         }, {
             id: 9,
             name: 'Java',
@@ -67,8 +76,8 @@ function Skills() {
             img: nodejs
         }, {
             id: 11,
-            name: 'NPM',
-            img: npm
+            name: 'PostgreSQL',
+            img: postgresql
         }, 
         // {
         //     name: 'Figma',
@@ -84,8 +93,8 @@ function Skills() {
             img: git
         }, {
             id: 14,
-            name: 'Docker',
-            img: docker
+            name: 'JavaScript',
+            img: Js
         },
         {
             id: 15,

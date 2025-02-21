@@ -3,16 +3,22 @@ function Qualifications() {
     const experienceLists = [
         {
             id: 0,
-            companyName: "Zoho Corporation",
-            startingData: "2020",
-            endingDate: "2022",
-            role: "Software Developer"
+            companyName: "Fiverr",
+            startingData: "Mar 2023",
+            endingDate: "Jul 2024",
+            role: "Freelance Data Engineer & Cloud Developer"
         }, {
             id: 1,
+            companyName: "BidScript",
+            startingData: "Mar 2023",
+            endingDate: "Jul 2024",
+            role: "Senior Software Developer"
+        }, {
+            id: 2,
             companyName: "Zoho Corporation",
-            startingData: "2019",
-            endingDate: "2020",
-            role: "Software Intern"
+            startingData: "Sept 2019",
+            endingDate: "Oct 2022",
+            role: "Software Engineer"
         }
     ];
     const educationLists = [
