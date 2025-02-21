@@ -1,13 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.0b44af98.css",
-    "main.js": "/static/js/main.4550f3e1.js",
+    "main.css": "/static/css/main.3f46146e.css",
+    "main.js": "/static/js/main.c7c43a69.js",
     "static/media/emovieProject.png": "/static/media/emovieProject.b12f6c54c08db4fa3fc3.png",
     "static/media/Portfolioimg.png": "/static/media/Portfolioimg.9d57c1b748116f192761.png",
     "static/media/filesharing.png": "/static/media/filesharing.7a40fc8a353341aa06ca.png",
     "static/media/sabari.png": "/static/media/sabari.436d0daeb5fc728e1fdb.png",
+    "static/media/kubernetes.svg": "/static/media/kubernetes.1ade9eb9900c6dcddfff24812a220e54.svg",
     "static/media/react.svg": "/static/media/react.d580a556565454c43bb9f5276bcc7dce.svg",
+    "static/media/apache-spark.svg": "/static/media/apache-spark.0cd3c5611f7eb90aea6e162a8b9d5e3d.svg",
+    "static/media/jenkins.svg": "/static/media/jenkins.cd4ee713b18345c1fe9d4bfc2a0608c7.svg",
     "static/media/sql-server.svg": "/static/media/sql-server.b0fa9ca5b426d173ea8a0b32e0632dd2.svg",
+    "static/media/go.svg": "/static/media/go.fb8754d3fe60b8c0dc3785758c9f649f.svg",
+    "static/media/postgresql.svg": "/static/media/postgresql.6d3129da3f1900ded5afd8286e8e73ef.svg",
+    "static/media/aws.svg": "/static/media/aws.482ae98bd199aa096dfaa67074122abb.svg",
+    "static/media/apache-kafka.svg": "/static/media/apache-kafka.8f75a626df0b85bf8be8218d295711fb.svg",
     "static/media/dotnet.svg": "/static/media/dotnet.a766bc445bcc0f3a10f464bce0672262.svg",
     "static/media/nodejs.svg": "/static/media/nodejs.15e8dd12a14737880204db114c63442b.svg",
     "static/media/css.svg": "/static/media/css.19cd0dec3a45c84933cf89413da68d3e.svg",
@@ -16,6 +23,7 @@
     "static/media/java.svg": "/static/media/java.5386b56c3206b6bd70b1053534d73dc3.svg",
     "static/media/github.svg": "/static/media/github.92b2358adff5e070313b75a397ff3685.svg",
     "static/media/docker.svg": "/static/media/docker.a2eecd96da9f90e20b8dd2c1d09a1fc3.svg",
+    "static/media/python.svg": "/static/media/python.026a62687ef705a39cfc755d7457859c.svg",
     "static/media/mongodb.svg": "/static/media/mongodb.3beac5ba18197ccbdea6e2f53e18edcf.svg",
     "static/media/javascript.svg": "/static/media/javascript.34cd9860149518f3e4ecc21a4b50efae.svg",
     "index.html": "/index.html",
@@ -25,11 +33,12 @@
     "static/media/typescript.svg": "/static/media/typescript.f20748caf2dac55710ddeed71de0bac4.svg",
     "static/media/html.svg": "/static/media/html.c1bb84e022ca9d76984d4b943bd678fd.svg",
     "static/media/npm.svg": "/static/media/npm.8c0606a7c392a7d33d03e67c80d6f40a.svg",
-    "main.0b44af98.css.map": "/static/css/main.0b44af98.css.map",
-    "main.4550f3e1.js.map": "/static/js/main.4550f3e1.js.map"
+    "static/media/terraform.svg": "/static/media/terraform.218ec08089b9ab4fb05afce8c8f615ba.svg",
+    "main.3f46146e.css.map": "/static/css/main.3f46146e.css.map",
+    "main.c7c43a69.js.map": "/static/js/main.c7c43a69.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b44af98.css",
-    "static/js/main.4550f3e1.js"
+    "static/css/main.3f46146e.css",
+    "static/js/main.c7c43a69.js"
   ]
 }
