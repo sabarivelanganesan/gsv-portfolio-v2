@@ -1,18 +1,19 @@
 import React from "react";
 function Qualifications() {
     const experienceLists = [
+        // {
+        //     id: 0,
+        //     companyName: "Athenahealth",
+        //     startingData: "July 2025",
+        //     endingDate: "Present",
+        //     role: "Software Engineer - Contractor"
+        // }, 
         {
             id: 0,
-            companyName: "Fiverr",
-            startingData: "Mar 2023",
-            endingDate: "Jul 2024",
-            role: "Freelance Data Engineer & Cloud Developer"
-        }, {
-            id: 1,
-            companyName: "BidScript",
-            startingData: "Mar 2023",
-            endingDate: "Jul 2024",
-            role: "Senior Software Developer"
+            companyName: "CitiusTech",
+            startingData: "Jun 2025",
+            endingDate: "Present",
+            role: "Senior Software Engineer"
         }, {
             id: 2,
             companyName: "Zoho Corporation",

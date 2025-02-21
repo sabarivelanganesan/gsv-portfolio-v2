@@ -48,7 +48,7 @@ function Home() {
             <div className="profile-section">
                 <p className="profile-start">Hi, I am</p>
                 <p className="profile-name">SABARIVELAN GANESAN</p>
-                <p className="profile-title" id="jobtitle">DevOps | Full-Stack | Cloud | Data Engineer</p>
+                <p className="profile-title" id="jobtitle">Senior Software Engineer</p>
                 <p className="profile-description">
                 I build scalable, automated, and data-driven solutions across cloud, development, and operations.
                 </p>
